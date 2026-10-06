@@ -1,0 +1,14 @@
+[package]
+name = "rmmz_steam"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+napi = "3.14.2"
+napi-derive = "3.6.12"
+
+[build-dependencies]
+napi-build = "2.6.0"
