@@ -1,0 +1,3 @@
+[ ] Add initialization on lib.rs
+[ ] Test mock initialization on RPG Maker
+[ ] Create SteamInfo or SteamUtils for ID, Name, etc
