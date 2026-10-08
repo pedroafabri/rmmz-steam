@@ -1,3 +1,7 @@
-[ ] Add initialization on lib.rs
-[ ] Test mock initialization on RPG Maker
+[X] Organize napi folder and lib.rs
+[X] Add initialization on lib.rs
+[X] Test mock initialization on RPG Maker
+[ ] Rename output file to dist/rmmz_steam.node
+[ ] Generate types/docs for napi
+[ ] Rename MockSteam to MockedSteam or SteamMock (decide!)
 [ ] Create SteamInfo or SteamUtils for ID, Name, etc
