@@ -27,7 +27,7 @@ fn main() {
 
     let src_path = Path::new("target").join("release").join(src_filename);
     let dist_dir = Path::new("dist").join(platform_folder);
-    let target_path = dist_dir.join("steam_core.node");
+    let target_path = dist_dir.join("rmmz_steam.node");
 
     fs::create_dir_all(&dist_dir).expect("Error while creating dist folder");
     fs::copy(&src_path, &target_path).expect("Error while copying the binary to dist folder");
